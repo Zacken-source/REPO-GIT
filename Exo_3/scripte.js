@@ -1,7 +1,7 @@
-function changeValue(){
-    let newValue = document.getElementById("newValue");
-    let input = document.querySelector("input");
-    let newContent = document.createTextNode(input.value);
-    newValue.innerHTML = "";
-    newValue.appendChild(newContent);
+function changeValue () {
+  const newValue = document.getElementById('newValue')
+  const input = document.querySelector('input')
+  const newContent = document.createTextNode(input.value)
+  newValue.innerHTML = ''
+  newValue.appendChild(newContent)
 }

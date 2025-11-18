@@ -1,12 +1,12 @@
-console.log("oui");
-let premierLi = document.getElementById("first");
-let newDiv = document.createElement("div");
+console.log('oui')
+const premierLi = document.getElementById('first')
+const newDiv = document.createElement('div')
 
-let text = document.createTextNode('voici une div');
+const text = document.createTextNode('voici une div')
 
-newDiv.appendChild(text);
-premierLi.appendChild(newDiv);
+newDiv.appendChild(text)
+premierLi.appendChild(newDiv)
 
-let liste = document.querySelector("li");
+const liste = document.querySelector('li')
 
-liste.classList.add("style-vert");
+liste.classList.add('style-vert')
